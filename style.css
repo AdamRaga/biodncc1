@@ -1,0 +1,211 @@
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff7f7;
+  color: #ffff;
+  justify-content: center;
+  position: static;
+}
+
+#deskripsi,
+#profile,
+#skill,
+#kontak {
+  padding-top: 60px; /* Ukuran padding sesuai tinggi navbar */
+  margin-top: -20px;
+}
+
+/* container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+/* Navbar */
+.container-navbar {
+  position: sticky;
+  z-index: 200;
+  top: 0;
+  background-color: #6c48c5;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+nav {
+  text-align: center;
+}
+
+.nav-links a {
+  color: #ffff;
+  margin-left: 20px;
+  position: relative;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+.nav-links a:hover {
+  background-color: #1230ae;
+  padding: 10px 10px;
+}
+
+/* nama & gambar */
+.teks-nama {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: #1230ae;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); */
+}
+.gambar-deskripsi img {
+  margin-top: 30px;
+  width: 150px;
+  border-radius: 10%;
+  border: 5px solid #1230ae;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.gambar-deskripsi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* deskripsi */
+.container-deskripsi {
+  margin: 20px;
+}
+.container-teksdeskripsi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c48c5;
+  border-radius: 20px;
+  padding: 20px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.teks-deskripsi h1 {
+  margin: 10px 20px;
+  font-size: 28px;
+}
+.teks-deskripsi p {
+  margin: 10px 20px;
+  text-align: justify;
+}
+
+/* profile */
+.profile {
+  background-color: #6c48c5;
+  border-radius: 20px;
+  margin: auto;
+  padding: 20px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.profile h1 {
+  margin: 10px 20px;
+  font-size: 28px;
+}
+
+/* skill */
+
+.skill {
+  background-color: #6c48c5;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.skill h1 {
+  margin: 10px 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 28px;
+}
+
+.teks-skill {
+  margin: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skill p {
+  margin-top: 0px;
+  font-size: 24px;
+}
+
+/* Kontak */
+.kontak {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #6c48c5;
+  border-radius: 20px;
+  padding: 20px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.teks-kontak {
+  margin-top: 0px;
+  padding-top: 0%;
+}
+.kontak h1 {
+  font-size: 28px;
+  padding-top: 0%;
+}
+.kontak img {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  border-radius: 50%;
+  border: 5px solid #1230ae;
+}
+.teks-kontak h1 {
+  font-size: 28px;
+}
+
+.teks-kontak {
+  font-size: 20px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.btn-back {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1230ae;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 13px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.btn-ig {
+  background-color: #833eb4;
+}
+.btn-linkedIn {
+  background-color: #0077b5;
+}
+.btn-wa {
+  background-color: #075e54;
+}
+.btn:hover {
+  background-color: #9290c3;
+}
